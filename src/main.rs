@@ -6,7 +6,7 @@ extern crate cpython;
 extern crate crypto2;
 
 use crypto2::hash::sha256;
-use cpython::{Python, PyBytes, PyObject, PyResult, NoArgs, ObjectProtocol};
+use cpython::{Python, PyBytes, PyObject, NoArgs, ObjectProtocol};
 
 
 #[bench]
