@@ -9,6 +9,7 @@ edition = "2018"
 [dependencies]
 cpython = "0.5"
 crypto2 = "0.1"
+openssl = "0.10"
 
 [features]
 default = [
