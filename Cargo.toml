@@ -8,7 +8,7 @@ edition = "2018"
 
 [dependencies]
 cpython = "0.5"
-crypto2 = "0.1"
+crypto2 = { git = "https://github.com/shadowsocks/crypto2.git", branch = "dev" }
 openssl = "0.10"
 
 [features]
